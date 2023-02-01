@@ -41,7 +41,7 @@ Vue.component('global-details', require('./components/PostDetails.vue').default)
  */
 import router from './routes/routes'
 import Axios from 'axios';
-/**
+
 import Vuex from 'vuex';
 Vue.use(Vuex)
 
@@ -120,9 +120,9 @@ const store = new Vuex.Store({
     }
 
 })
-*/
+
 const app = new Vue({
     el: '#app',
     router,
-    // store: store
+    store: store
 });
