@@ -351,8 +351,6 @@
             margin-top: 10px;
             font-size: 13px;
         }
-        /* Custom
-    checkbox */
 
         .custom-checkbox {
             position: relative;
@@ -411,7 +409,6 @@
             box-shadow: none;
             background: #ddd;
         }
-        /* Modal styles */
 
         .modal .modal-dialog {
             max-width: 400px;

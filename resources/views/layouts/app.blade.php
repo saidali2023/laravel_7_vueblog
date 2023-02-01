@@ -29,7 +29,7 @@
 <body>
     <div id="app">
         <!-- {{--  @include('layouts.header') --}} -->
-        @include('layouts.header')
+        
           <!-- <example-component></example-component> -->
           <!-- <global-home></global-home> -->
         @yield('content')
